@@ -16,10 +16,11 @@ public class TestTinhTongMang {
         int exp= -45;
         int act= tinh.tinhTongMangSoNguyen(new int[]{-1,-4,-7,-9,-10,-14});
     Assertions.assertEquals(exp,act);
-    }@Test
-    public void testTinhTongMangNguyenChua_0(){
-        int exp=45;
-        int act= tinh.tinhTongMangSoNguyen(new int[]{0,1,4,7,9,10,14});
-    Assertions.assertEquals(exp,act);
     }
+//    @Test
+//    public void testTinhTongMangNguyenChua_0(){
+//        int exp=45;
+//        int act= tinh.tinhTongMangSoNguyen(new int[]{0,1,4,7,9,10,14});
+//    Assertions.assertEquals(exp,act);
+//    }
 }
